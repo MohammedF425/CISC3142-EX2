@@ -2,6 +2,10 @@ default:
 	make part1
 	make part2
 	make part3
+lab2:
+	make part1
+	make part2
+	make part3
 part1:  
 	c++ excer-1.5.cpp -o a.out
 	./a.out 
